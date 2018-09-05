@@ -1,0 +1,241 @@
+@font-face {
+    font-family: rale-way;
+    src: url(Raleway-regular.ttf);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.white
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:5o0px;
+    color: #fff;
+    z-index: 100000;
+}
+
+.ichat-wrapper {
+    height: 450px;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px #eee;
+    position: fixed;
+    padding: 0px;
+    border-radius: 5px;
+    right: 3px;
+    bottom: 10px;
+    background-color: #fff;
+    color: #98a8b4;
+    overflow-y: scroll;
+    font-family: rale-way !important;
+    z-index: 10000000000;
+}
+
+.ichat-body {
+    margin: 40px 0px 0px;
+    padding: 10px;
+
+}
+
+@media(max-width: 769px) {
+    .ichat-wrapper {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+
+    }
+
+    .ichatreply {
+        position: fixed;
+        bottom: 3px;
+        margin: 3.5% !important;
+        height: 50px !important;
+        width: 95% !important;
+        background-color: #eee;
+        border-radius: 25px;
+        padding: 0px;
+
+    }
+    .chw {
+        margin: 15px 10px !important;
+    }
+
+    .ic-sp {
+        padding: 0px 10px 5px 10px !important;
+        font-size: 1.2em;
+    }
+
+    .ichatreply > button {
+
+        background-color: #3f72fd !important;
+        height: 35px !important;
+        width: 10%;
+        padding-top: display: inline-grid;
+        color: #fff !important;
+        border-radius: 50% !important;
+        box-shadow: 1px 1px 1px 1px #ccc;
+    }
+
+    .ichat-header {
+
+        width: 100% !important;
+
+    }
+}
+
+@font-face {
+    font-family: shine;
+    src: url(.ttf);
+}
+
+.ichat-logo > a {
+    text-decoration: none;
+    font-family: rale-way !important;
+    color:#3f72fd;
+    font-weight: bold
+}
+
+
+
+
+.ichat-header {
+    height: 30px;
+    padding: 20px 5px 0px 5px;
+    position: fixed;
+    width: 300px;
+    background: #fff;
+
+}
+
+.ichat-toggle-off {
+    float: right;
+    padding: 0px 5px;
+}
+
+.ichat-toggle-off > a,
+i {
+    text-decoration: none;
+    font-size: 1.2em;
+    
+    margin-right: 10px;
+}
+
+.ichat-wrap {
+    width: 100%;
+    margin: 10px 0px;
+
+}
+
+--webkit::scrollbar {
+    width: 5px;
+}
+
+.ichat-img {
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    padding: 2px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+}
+
+.iimg {
+    display: inline-block;
+    ;
+
+}
+
+.ichat-bubble {
+    border-radius: 4px;
+    padding: 7px;
+    max-width: 70%;
+    box-shadow: 2px 2px 2px 2px #eee;
+
+
+    display: inline-block;
+}
+
+
+
+.ichatsend {
+    display: inline-block;
+}
+
+.ichatreply {
+    position: fixed;
+    bottom: 10px;
+    margin: 5px;
+    height: 40px;
+    width: 290px;
+    background-color: #eee;
+    border-radius: 25px;
+    padding: 0px;
+
+
+}
+
+.ichatreply > button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 5px;
+    width: 35px;
+    padding-top: display: inline-grid;
+    color: #3f72fd;
+
+}
+
+
+
+.rec {
+    background: #F0F2F7;
+}
+
+.sen {
+    float: right;
+}
+
+.sen > article {
+    color: #fff;
+    padding-right: 4px;
+    text-align: right;
+}
+
+.blu {
+    background-color: #3f72fd
+}
+
+.blite {
+    color: #6677e4
+}
+
+.ichatw {
+    font-size: .9em;
+    color: #888;
+}
+
+.chw {
+    display: inline-grid;
+    outline: none;
+    border: none;
+    margin: 10px;
+    background: transparent;
+
+
+    width: 78%;
+}
+
+.ichat-logo > a {
+    font-family: hamp !important;
+}
+
+.ic-sp {
+    padding: 0px 10px 5px 10px;
+    font-size: 1.2em;
+}
+
+.active {
+    border-bottom: 2px solid blue;
+    border-radius: 2px;
+}
