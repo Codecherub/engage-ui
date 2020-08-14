@@ -1,2 +1,2 @@
 # engage-ui
-Front-end user interface for engage live chat http://github.com/codecherub/engage
+Front-end user interface  design for engage live chat http://github.com/codecherub/engage
